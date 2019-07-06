@@ -1,0 +1,25 @@
+{
+  "name": "splitter",
+  "version": "1.0.0",
+  "description": "DAPP which splits Ether (B9lab assignment)",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adilabed/splitter-b9lab.git"
+  },
+  "author": "Adil Abed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adilabed/splitter-b9lab/issues"
+  },
+  "homepage": "https://github.com/adilabed/splitter-b9lab#readme",
+  "dependencies": {
+    "openzeppelin-solidity": "^2.3.0"
+  }
+}
