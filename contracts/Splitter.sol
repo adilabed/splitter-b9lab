@@ -20,7 +20,7 @@ contract Splitter {
     ///@title  Alice use this function to split the sent Amount between futur recipients
     ///@notice No direct transfers of ether are made. Balances are updated. Bob & Carol can claim the ether via the withdraw function.
     function SplitInHalf(address bob, address carol) public payable {
-        require(bob != address(0x0) && alice != address(0x0), "To avoid wasting some precious ether");
+        require(bob != address(0x0) && carol != address(0x0), "To avoid wasting some precious ether");
         require(msg.value > 0, "Avoiding trouble");
 
         balances[carol].add(msg.value.div(2));
