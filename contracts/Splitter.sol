@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 ///@title A splitter smart contract
 ///@author Adil Abed
-///@notice This is an educational assignment.Smart contract might contains severe security bugs
+///@notice This is an educational assignment.Smart contract might contain severe security bugs
 
 
 
