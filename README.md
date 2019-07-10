@@ -9,6 +9,11 @@
 - We can see the balances of Alice, Bob and Carol on the Web page.
 - Alice can use the Web page to split her ether.
 
+# To-Do
+
+- Unit tests
+- Web page
+
 # Tech
 
 - Truffle
